@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "weed-detector",
+    "name": "Weed Detector",
     "slug": "weed-detector",
     "platforms": [
       "ios",
@@ -22,7 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cropDr.weedDetector",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.cropDr.weedDetector",
+      "versionCode": 1
     }
   }
 }
